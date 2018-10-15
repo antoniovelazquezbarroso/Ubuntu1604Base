@@ -1,0 +1,6 @@
+.vagrant/
+.bundle/
+.DS_Store
+*.retry
+/playbooks/*.retry
+/playbooks/**/*.retry
