@@ -14,8 +14,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.hostname = "Ubuntu1604Base"
 
-  config.vm.network :private_network, ip: "192.168.2.88"
-#  config.vm.network :public_network, ip: "192.168.1.15", bridge: "en0: Ethernet"
+#  config.vm.network :private_network, ip: "192.168.2.88"
+  config.vm.network :public_network, ip: "192.168.1.15", bridge: "en0: Ethernet"
 
   config.ssh.insert_key = false
 #  config.vm.synced_folder '.', '/vagrant', disabled: true
